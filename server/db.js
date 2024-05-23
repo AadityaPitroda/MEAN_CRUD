@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const dbUri = 'mongodb+srv://Mongo_First:Mongo_First@cluster0.srck6ow.mongodb.net/employe_db?retryWrites=true&w=majority&appName=Cluster0'
+const dbUri = 'MongoDB_Atlas_Cluster_Link_here'
 
 mongoose.set('strictQuery',false)
 
