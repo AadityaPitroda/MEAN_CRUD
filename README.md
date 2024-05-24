@@ -21,7 +21,12 @@ This file consists connection with Client(Angular JS), It consists Node JS serve
  * A form is provided to enter employee details like name, position, etc.
  * Clicking the submit button triggers the insert operation on the server-side API.
  * Upon successful insertion, the newly added employee is displayed in the table.
-   
+
+>Read Employee
+* A view component is provided, which reads data from database sync real time.
+* Clicking on data (row) it provides update functionality.
+* Clicking on delete icon, takes permission to delete from database.
+
  >Update Employee:
  * Clicking on an existing employee record populates the form with the details.
  * Making changes to the form and clicking submit updates the corresponding employee record on the server-side API.
